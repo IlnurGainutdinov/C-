@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.Write("Введите число ");
+int N = Convert.ToInt32(Console.ReadLine());
+int count = -N;
+while(count <= N)
+{
+    Console.WriteLine($"{count} ");
+    count++;
+}  
