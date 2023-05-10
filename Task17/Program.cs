@@ -3,44 +3,44 @@
 
 void QuatersFind(int x, int y)
 {
-if (x > 0 && y > 0)
-{
-Console.Write("Точка лежит в первой четверти");
-}
-else if (x < 0 && y > 0)
-{
-Console.Write("Точка лежит во второй четверти");
-}
-else if (x < 0 && y < 0)
-{
-Console.Write("Точка лежит в третьей четверти");
-}
-else
-{
-Console.Write("Точка лежит в четвертой четверти");
-}
+    if (x > 0 && y > 0)
+    {
+        Console.Write("Точка лежит в первой четверти");
+    }
+    else if (x < 0 && y > 0)
+    {
+        Console.Write("Точка лежит во второй четверти");
+    }
+    else if (x < 0 && y < 0)
+    {
+        Console.Write("Точка лежит в третьей четверти");
+    }
+    else
+    {
+        Console.Write("Точка лежит в четвертой четверти");
+    }
 }
 
 string QuatersFindWhithReturn(int x, int y)
 {
-string result = " ";
-if (x > 0 && y > 0)
-{
-result = "Точка лежит в первой четверти";
-}
-else if (x < 0 && y > 0)
-{
-result = "Точка лежит во второй четверти";
-}
-else if (x < 0 && y < 0)
-{
-result = "Точка лежит в третьей четверти";
-}
-else
-{
-result = "Точка лежит в четвертой четверти";
-}
-return result;
+    string result = " ";
+    if (x > 0 && y > 0)
+    {
+        result = "Точка лежит в первой четверти";
+    }
+    else if (x < 0 && y > 0)
+    {
+        result = "Точка лежит во второй четверти";
+    }
+    else if (x < 0 && y < 0)
+    {
+        result = "Точка лежит в третьей четверти";
+    }
+    else
+    {
+        result = "Точка лежит в четвертой четверти";
+    }
+    return result;
 }
 
 Console.Write("Введите координату Х: ");
