@@ -6,6 +6,7 @@
 
 // 32679 -> 6
 
+
 System.Console.WriteLine("Введите число: ");
 string number = Console.ReadLine();
 if (number.Length > 2)
