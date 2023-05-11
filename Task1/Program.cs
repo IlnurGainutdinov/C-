@@ -4,6 +4,7 @@
 // a = 9, b = -3 -> да 
 // a = -3 b = 9 -> нет
 
+
 Console.Write("Введите число А: ");
 int numberA = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число В: ");
